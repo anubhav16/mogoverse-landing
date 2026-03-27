@@ -146,6 +146,39 @@
     .client-logos{gap:20px;}
     .client-logos img{height:22px;}
   }
+  /* Earpoints ecosystem */
+  .earpoints-section{background:linear-gradient(135deg,#0f0a1e 0%,#1a1a2e 50%,#1e1040 100%);color:white;padding:100px 60px;position:relative;overflow:hidden;}
+  .earpoints-section::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(109,40,217,0.15) 0%,transparent 70%);border-radius:50%;}
+  .earpoints-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1;}
+  .earpoints-hero{text-align:center;margin-bottom:64px;}
+  .earpoints-hero .section-label{color:#a78bfa;}
+  .earpoints-hero h2{font-size:44px;font-weight:900;letter-spacing:-2px;margin-bottom:16px;line-height:1.1;}
+  .earpoints-hero h2 em{font-style:normal;color:#a78bfa;}
+  .earpoints-hero .desc{color:#999;max-width:640px;margin:0 auto 32px;font-size:17px;line-height:1.7;}
+  .earpoints-mega-stat{display:inline-flex;align-items:center;gap:16px;background:rgba(109,40,217,0.12);border:1px solid rgba(167,139,250,0.2);border-radius:16px;padding:20px 36px;margin-bottom:16px;}
+  .earpoints-mega-stat .mega-num{font-size:56px;font-weight:900;color:#a78bfa;letter-spacing:-2px;line-height:1;}
+  .earpoints-mega-stat .mega-label{text-align:left;font-size:15px;color:#ccc;line-height:1.4;max-width:240px;}
+  .earpoints-mega-stat .mega-label strong{color:white;}
+  .earpoints-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:48px;}
+  .earpoint-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:24px 20px;text-align:center;transition:all 0.3s;cursor:default;}
+  .earpoint-card:hover{background:rgba(109,40,217,0.12);border-color:rgba(167,139,250,0.3);transform:translateY(-2px);}
+  .earpoint-card .ep-icon{font-size:32px;margin-bottom:10px;display:block;}
+  .earpoint-card .ep-name{font-size:14px;font-weight:700;color:white;margin-bottom:4px;}
+  .earpoint-card .ep-detail{font-size:12px;color:#888;line-height:1.4;}
+  .earpoint-card .ep-freq{display:inline-block;margin-top:8px;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;background:rgba(167,139,250,0.15);color:#a78bfa;}
+  .earpoints-callout{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:36px 40px;display:flex;align-items:center;gap:32px;}
+  .earpoints-callout .callout-icon{font-size:48px;flex-shrink:0;}
+  .earpoints-callout .callout-text h3{font-size:20px;font-weight:800;margin-bottom:8px;color:white;}
+  .earpoints-callout .callout-text p{font-size:15px;color:#999;line-height:1.6;}
+  .earpoints-callout .callout-text p strong{color:#a78bfa;}
+  @media(max-width:768px){
+    .earpoints-section{padding:60px 20px;}
+    .earpoints-grid{grid-template-columns:1fr 1fr;}
+    .earpoints-mega-stat{flex-direction:column;text-align:center;padding:20px 24px;}
+    .earpoints-mega-stat .mega-label{text-align:center;}
+    .earpoints-callout{flex-direction:column;text-align:center;padding:28px 24px;}
+    .earpoints-hero h2{font-size:32px;}
+  }
 </style>
 </head>
 <body>
@@ -276,6 +309,104 @@
       <div class="step-card"><div class="step-num">1</div><h3>Describe your brand's vibe</h3><p>Warm and trustworthy? Bold and energetic? Minimal and premium? The AI creates a sonic profile for your brand — so every track it generates is unmistakably yours. Not a stock library guess.</p><div class="time-badge">30 seconds</div></div>
       <div class="step-card"><div class="step-num">2</div><h3>Generate royalty free music — on brand</h3><p>Background music for videos, YouTube intros, ad jingles, hold music — all copyright free, all matching your brand DNA. No browsing thousands of tracks. No "close enough." Exactly right.</p><div class="time-badge">2 minutes</div></div>
       <div class="step-card"><div class="step-num">3</div><h3>Download. Use. Forever.</h3><p>Full commercial rights. No per-use royalties. No subscription trap — you own what you generate. Use on YouTube, TikTok, Instagram, podcasts, ads, websites. No copyright claims. Ever.</p><div class="time-badge">Ready to use</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Earpoints: The Power of Sonic Branding -->
+<section class="earpoints-section">
+  <div class="earpoints-inner">
+    <div class="earpoints-hero">
+      <div class="section-label">Where Your Brand Is Heard</div>
+      <h2>One sonic identity.<br><em>Millions of earpoints.</em></h2>
+      <p class="desc">Every touchpoint is an earpoint. Your brand's sound doesn't just play once — it echoes across every interaction, every device, every moment. Here's where a single sonic identity lives:</p>
+      <div class="earpoints-mega-stat">
+        <div class="mega-num">500M+</div>
+        <div class="mega-label">times Mastercard's sonic brand is heard — <strong>from a single MOGO®</strong> deployed across all earpoints</div>
+      </div>
+    </div>
+
+    <div class="earpoints-grid">
+      <div class="earpoint-card">
+        <span class="ep-icon">📺</span>
+        <div class="ep-name">TV Commercials</div>
+        <div class="ep-detail">Every TVC opens and closes with your sonic signature</div>
+        <div class="ep-freq">Every ad, every airing</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">🎙️</span>
+        <div class="ep-name">Podcast Intro & Outro</div>
+        <div class="ep-detail">Branded audio bookends on every episode</div>
+        <div class="ep-freq">2x per episode</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">📱</span>
+        <div class="ep-name">Instagram & TikTok</div>
+        <div class="ep-detail">Reels, stories, and video ads with embedded sonic DNA</div>
+        <div class="ep-freq">Every video post</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">📲</span>
+        <div class="ep-name">Social Media Campaigns</div>
+        <div class="ep-detail">Every campaign video, every sponsored post, every sound bite</div>
+        <div class="ep-freq">Millions of impressions</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">💳</span>
+        <div class="ep-name">POS Transactions</div>
+        <div class="ep-detail">Mastercard plays its MOGO® on every card tap worldwide</div>
+        <div class="ep-freq">500M+ times/year</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">🏧</span>
+        <div class="ep-name">ATM Withdrawals</div>
+        <div class="ep-detail">Brand sound on every cash withdrawal screen</div>
+        <div class="ep-freq">Every transaction</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">✈️</span>
+        <div class="ep-name">Airlines & Lounges</div>
+        <div class="ep-detail">Vistara plays its sonic identity at boarding, in-flight, and arrival</div>
+        <div class="ep-freq">Every passenger, every flight</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">🏨</span>
+        <div class="ep-name">Luxury Hotels</div>
+        <div class="ep-detail">Lobby ambiance, elevators, spa, and in-room experience</div>
+        <div class="ep-freq">24/7 ambient presence</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">🏥</span>
+        <div class="ep-name">Premium Hospitals</div>
+        <div class="ep-detail">Calming branded audio in waiting areas and patient rooms</div>
+        <div class="ep-freq">Continuous loop</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">📞</span>
+        <div class="ep-name">IVR & Hold Music</div>
+        <div class="ep-detail">Every customer call plays your brand sound, not generic muzak</div>
+        <div class="ep-freq">Every call, every hold</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">🔊</span>
+        <div class="ep-name">Alexa & Smart Speakers</div>
+        <div class="ep-detail">Branded skill sounds, voice responses, and audio signatures</div>
+        <div class="ep-freq">Every voice interaction</div>
+      </div>
+      <div class="earpoint-card">
+        <span class="ep-icon">🤖</span>
+        <div class="ep-name">Voice Bots & AI Agents</div>
+        <div class="ep-detail">Chatbot greetings, AI assistant sounds, and conversational audio</div>
+        <div class="ep-freq">Every bot interaction</div>
+      </div>
+    </div>
+
+    <div class="earpoints-callout">
+      <div class="callout-icon">🎵</div>
+      <div class="callout-text">
+        <h3>Mastercard didn't stop at a sonic logo. Neither should you.</h3>
+        <p>After deploying their MOGO® across 500M+ earpoints, Mastercard now <strong>partners with musicians to embed their sonic DNA into original songs</strong> — amplifying brand recall through music people actually choose to listen to. That's the power of a sonic identity: it starts as a logo, becomes a language, and ends up in culture. <strong>Mogoverse gives every brand that same playbook.</strong></p>
+      </div>
     </div>
   </div>
 </section>
